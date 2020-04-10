@@ -48,7 +48,7 @@ p{
 	overflow: hidden;
 	border-radius: 200px;
 	/*display: none;*/
-	background:url(sunny_vector.jpg);
+	background:url(IMG_20190822_214610_220.jpg);
 	background-size: cover;
 	animation-name: slidein;
 	animation-duration: 1.3s;
@@ -240,7 +240,7 @@ svg circle:nth-child(2){
 	stroke:#00ff43;
 }
 .card:nth-child(4) svg circle:nth-child(2){
-	stroke-dashoffset:calc(440 - (440*90) / 100);
+	stroke-dashoffset:calc(440 - (440*10) / 100);
 	stroke:#00ff43;
 }
 .card:nth-child(5) svg circle:nth-child(2){
@@ -300,10 +300,10 @@ svg circle:nth-child(2){
 	background-image: url(facebook-round.png);
 }
 #ins{
-	background-image: url(instagram-round.png);
+	background-image: url(instagram-round.svg);
 }
 #twit{
-	background-image: url(twitter-round.png);
+	background-image: url(twitter-round.svg);
 }
 #git{
 	background-image: url(github.png);
